@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Teste</title>
+    </head>
+    <body>
+        <form action="mailto:pedrohenriquesarmento@gmail.com" method="get">
+            <p>Nome: <input type="text" name="nome" size="50" maxlength="50">
+                <br>
+                <br>
+                Nº do cartão de crédito <input type="text" name="cartao" size="16" maxlength="16">
+                <br>
+                <br>
+                Senha: <input type="password" name="senha">
+            </p>
+            <p>Selecione a bandeira do cartão de crédito: <br>
+                <input type="radio" name="bandeira">VISA<br>
+                <input type="radio" name="bandeira">MASTERCARD
+            </p>
+            <p>Selecione o horário de entrega: <br>
+                <input type="checkbox" name="hora">08h às 12h<br>
+                <input type="checkbox" name="hora">13h às 15h<br>
+                <input type="checkbox" name="hora">16h às 18h
+            </p>
+            <p>Endereço: <br>
+                <textarea name="endereco"cols="30" rows="2"></textarea></p>
+            <p>Referência: <br>
+                <textarea name="referencia" cols="30" rows="4"></textarea>
+            </p>
+            <p>Qual cidade você nasceu: <select name="cidade">
+                <option value="valor1">Montes Claros</option>
+                <option value="valor2">Belo Horizonte</option>
+                <option value="valor3">Grão mogol</option>
+                <option value="valor4">Porto Seguro</option>
+            </select></p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html>
